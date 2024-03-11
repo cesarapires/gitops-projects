@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: agora-aegean-portfolios-api
+spec:
+  selector:
+    matchLabels:
+      app: agora-aegean-portfolios-api
+  template:
+    metadata:
+      labels:
+        app: agora-aegean-portfolios-api
+    spec:
+      containers:
+      - name: agora-aegean-portfolios-api
+        image: cesarapires/agora-aegean-portfolios:latest
+        ports:
+        - containerPort: 3000
