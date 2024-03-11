@@ -7,9 +7,6 @@ resources:
 namespace: default
 
 images:
-- name: agora-aegean-portfolios
-  newName: ${{ secrets.DOCKER_HUB_USER_NAME }}/${{ agora-aegean-portfolios }}
-  newTag: e37a2099a83f455445ad876016f930b4ec6da4f2
 - name: agora-aegean-portfolios-api
   newName: cesarapires/agora-aegean-portfolios
   newTag: f6bcefc9f8e5ddb783d82a06129788f36fefd3a7
