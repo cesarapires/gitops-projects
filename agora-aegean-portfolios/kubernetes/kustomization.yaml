@@ -9,4 +9,4 @@ namespace: default
 images:
 - name: agora-aegean-portfolios-api
   newName: cesarapires/agora-aegean-portfolios
-  newTag: 628fe3ae0e08ea10e0f32a172ca3a2ed912f0eb0
+  newTag: 1d6e1a1245db03ebb28a27cd97e565093fc3c3da
