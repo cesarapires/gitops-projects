@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
       - name: agora-aegean-portfolios-api
-        image: cesarapires/agora-aegean-portfolios:latest
+        image: agora-aegean-portfolios-api
         ports:
         - containerPort: 3000
