@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: share-plus-backend
+spec:
+  selector:
+    matchLabels:
+      app: share-plus-backend
+  template:
+    metadata:
+      labels:
+        app: share-plus-backend
+    spec:
+      containers:
+      - name: share-plus-backend
+        image: share-plus-backend
+        ports:
+        - containerPort: 3005
