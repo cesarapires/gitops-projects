@@ -15,4 +15,4 @@ spec:
       - name: share-plus-backend
         image: share-plus-backend
         ports:
-        - containerPort: 3005
+        - containerPort: 9999

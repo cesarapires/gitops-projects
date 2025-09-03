@@ -6,6 +6,6 @@ spec:
   selector:
     app: share-plus-backend
   ports:
-  - port: 3000
-    targetPort: 3000
+  - port: 9999
+    targetPort: 9999
   type: LoadBalancer

@@ -10,6 +10,3 @@ images:
 - name: share-plus-backend
   newName: cesarapires/share-plus-backend
   newTag: 7bb5b8ac3b2a7ca4440f33c17675d5206114f4b4
-- name: share-plus-backend-api
-  newName: cesarapires/share-plus-backend
-  newTag: 4a1530abd54f4f8ea9429d65a5260c3ddb6ba53b
