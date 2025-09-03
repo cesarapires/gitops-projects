@@ -8,4 +8,5 @@ spec:
   ports:
   - port: 9999
     targetPort: 9999
-  type: LoadBalancer
+    nodePort: 30099
+  type: NodePort
