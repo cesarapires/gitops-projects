@@ -9,4 +9,4 @@ namespace: default
 images:
 - name: share-plus-backend
   newName: cesarapires/share-plus-backend
-  newTag: 5f331f32ab7035b5f3e11572354f933c82c02762
+  newTag: 58f5b041e980e7c6c1e4e2db1fa36a9d8374c862
